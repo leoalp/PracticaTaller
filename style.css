@@ -1,0 +1,110 @@
+body{
+    background-color: cadetblue;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;    
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: inline-block;
+    color: blueviolet;
+    text-align: center;    
+    padding: 20px 50px;
+    text-decoration: none;
+
+}
+
+ul li a.select{
+    background-color:bla;
+    color: white;    
+}
+
+ul li a:hover{
+    background-color:white;   
+    color: black; 
+    font-weight: bold;
+    font-size: larger;
+}
+
+#publication{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+input[type=text]{
+    font-size: xx-large;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: xx-large;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 930px;
+}
+
+input[type=submit]:hover{
+    background-color: white;  
+    color: black;
+}
+
+textarea{
+    width: 900px; 
+    color: black;
+    padding: 15px;
+    font-size: xx-large;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;     
+}
+
+#inputs{
+    display: grid;
+    grid-template-columns: auto auto; /*dos columnas de tamaño automático*/
+}
+
+#inputIzquierda{
+    margin-left:26%;
+}
+
+#inputDerecha{
+    margin-right:26%;
+}
+
+article{
+    padding: 25px;
+    border-radius: 5px;    
+    background-color: #ccc;
+    width: 90%;
+    margin: auto;   
+    border-style: double;
+    border-color: black; 
+}
+
+footer{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}

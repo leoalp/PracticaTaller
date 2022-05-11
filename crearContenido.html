@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class="select" href="index.html">Principal</a></li>
+            <li><a class="select" href="crearContenido.html">Crear Contenido</a></li>
+            <li><a class="select" href="contacto.html">Contacto</a></li>  
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Formulario de Crear Contenido</h1>
+    </header>
+       
+    <br>
+    <form action="" id="publication">
+        <div id="inputs">
+            <div id="inputIzquierda">
+                <!--<label for="titulo">Título</label>-->
+                <input type="text" id="titulo" name="titulo" placeholder="Título">
+            </div>
+            <div id="inputDerecha">
+                <!--<label for="autor">Autor</label>-->
+                <input type="text" id="autor" name="autor" placeholder="Autor">
+            </div>
+        </div>       
+       
+        <br>
+        <!--<label for="contenido">Contenido</label>-->
+        <br>   
+        <textarea type="text" id="contenido" name="contenido" cols="30" rows="10" placeholder="Contenido"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <footer>
+        Creada por Félix Leonardo Alpízar Rojas - Curso Programación Web
+    </footer>
+
+    <script type="module" src="crearContenido.js"></script>
+
+</body>
+</html>
